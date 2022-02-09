@@ -9,7 +9,7 @@ const router = require('./src/passwords.route')
 const app = express()
 const server = http.createServer(app)
 
-const PORT =  process.env.PORT || 80
+const PORT =  3004 || process.env.PORT || 80
 app.use(cors({
     origin: PORT,
     methods: ['GET', 'POST', 'DELETE', 'UPDATE', 'PUT', 'PATCH']
