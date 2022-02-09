@@ -1,0 +1,82 @@
+#modal{
+     display: none;
+  z-index: 1;
+  background-color: greenyellow;
+
+  position: fixed;
+ right:0px;
+   width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  justify-content: center;
+  
+}
+
+#modal-form{
+
+   flex-direction: column;
+  width: 400px;
+  height: 350px;
+  background-color: rgb(218, 218, 218);
+     justify-content: center;
+     box-shadow:rgba(29, 29, 29, 0.5) 0px 0px 20px;
+     border:1px black solid;
+      
+}
+#modal-close-btn{
+  border: 1px black solid;
+  display: flex;
+  float: right;
+  margin:1px;
+  padding: 5px;
+  width:10px;
+}
+#modal-close-btn:hover{
+  background-color:rgb(206, 3, 3) ;
+   border: 1px rgb(206, 3, 3)solid;
+   color:whitesmoke;
+  cursor: pointer;
+}
+#password-form{
+  display:grid;
+  grid-template-rows: 1fr;
+  justify-content: center;
+}
+#form-field{
+  text-align: left;
+  padding: 5px;
+  margin-left: 10px;
+}
+.password-input{
+  width: 300px;
+  border:  #1b1d22 1px solid;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+h5{
+  margin-top:10px;
+   margin-bottom:5px;
+  justify-content: left;
+}
+p{
+  margin-top: 3px;
+}
+.box {
+    border-radius: 5px;
+    box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+    padding: 30px;
+    margin: 20px;  
+}
+#modal-submit{
+  background-color: #282c34 ;
+  color: whitesmoke;
+ border-radius: 5px;
+  padding: 6px;
+  top: 10px;
+}
+#modal-submit:hover{
+  background-color: rgb(223, 71, 71);
+}
